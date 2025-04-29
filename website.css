@@ -1,0 +1,137 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo h1 {
+  margin-left: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section Styling */
+#home {
+  background-image: url('hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#home h2 {
+  font-size: 3em;
+  color: white;
+}
+
+#home .cta-button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+/* Exercises Section Styling */
+#exercises {
+  padding: 40px;
+}
+
+.exercise-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.exercise-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 250px;
+  text-align: center;
+}
+
+.exercise-card img {
+  width: 100%;
+  height: auto;
+}
+
+.exercise-card h3 {
+  margin-top: 10px;
+}
+
+/* Shop Section Styling */
+#shop {
+  background-color: #eee;
+  padding: 40px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 250px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  margin-top: 10px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
